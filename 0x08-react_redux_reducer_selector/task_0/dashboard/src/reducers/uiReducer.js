@@ -35,9 +35,7 @@ const uiReducer = (state = initialState, action) => {
 			isUserLoggedIn: false,
 		};
 		default:
-			break;
-
-	}
-	return state;
+			return state;
+	};
 }
 export default uiReducer;
